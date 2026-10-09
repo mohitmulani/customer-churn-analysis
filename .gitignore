@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local datasets: do not commit by default
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Power BI temporary files
+*.tmp
+~$*.pbix
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
